@@ -46,7 +46,14 @@
                     <img src="Imagenes/3.jpg" alt="Cesar Di Leonardo" width="115" height="115">
                 </div>
                 <div class="texto">
-                    <h1>Hola!<br> Bienvenido a mi web</h1>
+                    <h1 class="titulo">
+							<span class="typed" style="color:rgba(5, 5, 5, 0.8);"></span>
+					</h1>
+                    <div class="titulo" id="cadenas-h1">
+						<p>Hola!<br> Bienvenido a mi web<i class="mascota"> Gracias</i></p>
+						<p>Hola!<br> Bienvenido a mi web<i class="mascota"> Por</i></p>
+						<p>Hola!<br> Bienvenido a mi web<i class="mascota"> Visitarme</i></p>
+					</div> 
                     <a href="proyectos.php" class="btn mt-sm-4 bg-success text-white">Conoce mis proyectos</a>
                 </div>
             </div>
@@ -54,6 +61,7 @@
     </section>
     <?php include_once("footer.php"); ?>
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script src="menu.js"></script>
 </body>
 
