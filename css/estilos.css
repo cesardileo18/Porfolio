@@ -525,6 +525,9 @@ footer .redes-sociales .contenedor .instagram:hover {
         margin: 20px;
         padding: 7px;
     }
+    span.typed {
+        font-size: 45px !important;
+    }
 }
 
 @media screen and (max-width: 800px){
