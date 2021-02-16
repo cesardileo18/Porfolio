@@ -177,6 +177,9 @@ header .contenedor-texto .texto .profesion{
     color: #3895ea;
     text-decoration: underline;
 }
+.texto .titulo .mascota{
+    font-style: normal;
+}
 /*---------------------Sobre mi ---------------------------*/
 .sobre-mi i{
     background-color: black;
