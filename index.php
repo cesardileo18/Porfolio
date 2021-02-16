@@ -61,7 +61,7 @@
     </section>
     <?php include_once("footer.php"); ?>
     <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="js/letras.js"></script>
     <script src="menu.js"></script>
 </body>
 
