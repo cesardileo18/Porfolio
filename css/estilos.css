@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    background: #f7f3f3 !important;
+    background: #f7f5e4 !important;
     font-size: 16px;
 }
 .contenedor{
@@ -182,7 +182,7 @@ header .contenedor-texto .texto .profesion{
 }
 /*---------------------Sobre mi ---------------------------*/
 .trabajos1 {
-    background: #faabab;
+    
     padding: 60px 0; }
     .trabajos1 .contenedor {
       overflow: hidden; }
@@ -304,7 +304,6 @@ div.trabajo{
     background-color: #fff;
 }
 .trabajos{
-    background: #f7f3f3;
     padding: 60px 0;
 }
 .trabajos .contenedor{
@@ -408,7 +407,7 @@ h2, .bg{
     font-size: 20px;
     color: #a4a4a4;  
     display: inline-block;   
-    background-color: #f7f3f3;
+    background-color: #fdfade;
 }
 
 input#txtAsunto.asunto{
@@ -429,7 +428,7 @@ input#txtAsunto.asunto{
     margin-bottom: 15px;
     min-height: 100px;
     max-height: 300px;
-    background-color: #f7f3f3;
+    background-color: #fdfade;
     
  }
 
