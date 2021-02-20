@@ -47,7 +47,7 @@ header{
 .rounded-circle {
     vertical-align: top;
     border-radius: 10%;
-    border: 5px solid rgb(97 77 77 / .1);
+    border: 5px solid rgba(221, 130, 13, .1);
 }
 /*-------------------------------- Nav ----------------------------------------------------------*/
 header {
@@ -181,12 +181,59 @@ header .contenedor-texto .texto .profesion{
     font-style: normal;
 }
 /*---------------------Sobre mi ---------------------------*/
+.trabajos1 {
+    background: #faabab;
+    padding: 60px 0; }
+    .trabajos1 .contenedor {
+      overflow: hidden; }
+    .trabajos1 .titulo {
+      font-size: 34px;
+      line-height: 34px;
+      margin-bottom: 60px;
+      font-weight: 300;
+      color: #323068;
+      text-align: center; }
+    .trabajos1 .contenedor-trabajos1 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      .trabajos1 .contenedor-trabajos1 .trabajo1 {
+        width: 23%;
+        margin-bottom: 40px; }
+      .trabajos1 .contenedor-trabajos1 .trabajo1 .thumb1 {
+          width: 100%;
+          margin-bottom: 10px; }
+        .trabajos1 .contenedor-trabajos1 .trabajo1 .thumb1 img {
+            vertical-align: top;
+            width: 100%;
+            border-radius: 3px; }
+        .trabajos1 .contenedor-trabajos1 .trabajo1 .descripcion {
+          text-align: center; }
+        .trabajos1 .contenedor-trabajos1 .trabajo1 .descripcion .nombre {
+            font-weight: 700;
+            color: #3895ea;
+            margin-bottom: 10px; 
+        }
+
 .sobre-mi i{
-    background-color: black;
-    color: white;
-    padding: 30px;
-    font-size: 40px;
     
+    color: white;
+    font-size: 15px;
+    
+}
+.btn{
+    display: inline-block;
+    color: #fff;
+    background-color: #1e2b38;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+.btn:hover{
+    color: #fff;
+    background-color: #31465a;
 }
 .sobre-mi .bg-white{
     min-height: 298px;
@@ -202,7 +249,7 @@ header .contenedor-texto .texto .profesion{
 img.foto{
     width: 300px !important;
     height: 300px !important;
-    border-radius: 70% !important;
+    border-radius: 70%  !important;
     text-align: left !important;
 }
 .ml-5, .mx-5 {
@@ -531,13 +578,21 @@ footer .redes-sociales .contenedor .instagram:hover {
     span.typed {
         font-size: 45px !important;
     }
+    .btn{
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
 }
-
 @media screen and (max-width: 800px){
-   
+     .trabajos1 .contenedor-trabajos1 .trabajo1 {
+        width: 40%; } 
+
     .trabajos .contenedor-trabajos .trabajo {
         width: 110% !important;
      }
+
      header nav {
 		width:100%;
 		height:100%;
@@ -631,6 +686,7 @@ footer .redes-sociales .contenedor .instagram:hover {
         margin: 20px;
         padding: 7px;
     }
+    
 }
 @media only screen and (min-width: 1005px) and (max-width: 1210px){
     h2,.negro {
@@ -656,5 +712,3 @@ footer .redes-sociales .contenedor .instagram:hover {
     }
     
 }
-
-

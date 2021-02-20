@@ -38,105 +38,116 @@
                 <div>
                     <h1 class="s">Sobre mí</h1>
                     <h2 class="negro">Programador full Stack Jr. Con el objetivo de seguir creciendo profesionalmente en el ambito de la tecnología.</h2>
-                    <a href="cv/Cesar20Support.pdf" class="btn my-4 ml-1 boton" target="_blank">Descargar CV</a>
+                    <a href="cv/Cesar20Support.pdf" class="btn" target="_blank">Descargar CV <i class="fas fa-download"></i></a>
                 </div>
                 <div class="col-sm-3 col-9 mx-5">
                     <img src="imagenes/fotocv.jpg" alt="Cesar Acacio Di Leonardo" title="Cesar A. Dileonardo" width="300" height="300" class="rounded-circle img-responsive" />
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-6 col-12 px-2 my-2">
-                    <div class="bg-white">
-                        <div class="p-3"><i class="fas fa-code"></i></div>
-                        <div class="row px-3">
-                            <div class="col-12">
-                                <h3>PROGRAMACIÓN</h3>
-                            </div>
-                        </div>
-                        <div class="row p-3">
-                            <div class="col-12">
-                                <p>HTML, CSS, Bootstrap, PHP, POO, Framework Laravel, Javascript, jQuery, React.js, JSON.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-12 px-2 my-2">
-                    <div class="bg-white">
-                        <div class="p-3"><i class="fas fa-database"></i></div>
-                        <div class="row px-3">
-                            <div class="col-12">
-                                <h3>BASE DE DATOS</h3>
-                            </div>
-                        </div>
-                        <div class="row p-3">
-                            <div class="col-12">
-                                <p>MySQL/MariaDB, SQL Server.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-12 px-2 my-2">
-                    <div class="bg-white">
-                        <div class="p-3"><i class="fas fa-server"></i></div>
-                        <div class="row px-3">
-                            <div class="col-12">
-                                <h3>SERVIDORES</h3>
-                            </div>
-                        </div>
-                        <div class="row p-3">
-                            <div class="col-12">
-                                <p> XAMPP.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-12 px-2 my-2">
-                    <div class="bg-white">
-                        <div class="p-3"><i class="fas fa-language"></i></div>
-                        <div class="row px-3">
-                            <div class="col-12">
-                                <h3>IDIOMAS</h3>
-                            </div>
-                        </div>
-                        <div class="row p-3">
-                            <div class="col-12">
-                                <p>INGLES: BASICO - ESPAÑOL: NATIVO - ITALIANO: INTERMEDIO</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-12 px-2 my-2">
-                    <div class="bg-white">
-                        <div class="p-3"><i class="fas fa-window-restore"></i></div>
-                        <div class="row px-3">
-                            <div class="col-12">
-                                <h3>SOFTWARE</h3>
-                            </div>
-                        </div>
-                        <div class="row p-3">
-                            <div class="col-12">
-                                <p>GIT, GitHub, Visual Code, Sublime, WinSCP/Filezilla, MySQL, Heidi SQL.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-12 px-2 my-2">
-                    <div class="bg-white">
-                        <div class="p-3"><i class="fas fa-puzzle-piece"></i></div>
-                        <div class="row px-3">
-                            <div class="col-12">
-                                <h3>HOBBIES</h3>
-                            </div>
-                        </div>
-                        <div class="row p-3">
-                            <div class="col-12">
-                                <p>LECTURA - NATACION - HACER EJERCICIO</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            <section class="trabajos1">
+			<div class="contenedor">
+				<h3 class="titulo">Lenguajes de Programacion</h3>
+						
+				<div class="contenedor-trabajos1">
+					<div class="trabajo1">
+						<div class="thumb1">
+							<img src="Imagenes/php.png">
+						</div>
+						<div class="descripcion">
+							<p class="nombre">Php</p>
+						</div>
+					</div>
+					<div class="trabajo1">
+						<div class="thumb1">
+							<img src="Imagenes/react.jpg">
+						</div>
+						<div class="descripcion">
+							<p class="nombre">React</p>
+						</div>
+					</div>
+					<div class="trabajo1">
+						<div class="thumb1">
+							<img src="Imagenes/unnamed (1).png">
+						</div>
+						<div class="descripcion">
+							<p class="nombre">Adobe Xd</p>
+						</div>
+					</div>
+					<div class="trabajo1">
+						<div class="thumb1">
+							<img src="Imagenes/untitled-1_100.png">
+						</div>
+						<div class="descripcion">
+							<p class="nombre">Flexbox</p>
+						</div>
+					</div>
+                    <div class="trabajo1">
+						<div class="thumb1">
+							<img src="Imagenes/javascript.png">
+						</div>
+						<div class="descripcion">
+							<p class="nombre">Javascript</p>
+						</div>
+					</div>
+                    <div class="trabajo1">
+						<div class="thumb1">
+							<img src="Imagenes/jquery.png">
+						</div>
+						<div class="descripcion">
+							<p class="nombre">Jquery</p>
+						</div>
+					</div>
+					<div class="trabajo1">
+						<div class="thumb1">
+							<img src="Imagenes/laravel-logo.png">
+						</div>
+						<div class="descripcion">
+							<p class="nombre">Laravel</p>
+						</div>
+					</div>
+					<div class="trabajo1">
+						<div class="thumb1">
+							<img src="Imagenes/html5.png">
+						</div>
+						<div class="descripcion">
+							<p class="nombre">Html</p>
+						</div>
+					</div>
+					<div class="trabajo1">
+						<div class="thumb1">
+							<img src="Imagenes/git.png">
+						</div>
+						<div class="descripcion">
+							<p class="nombre">Git</p>
+						</div>
+					</div>
+					<div class="trabajo1">
+						<div class="thumb1">
+							<img src="Imagenes/css.png">
+						</div>
+						<div class="descripcion">
+							<p class="nombre">Css</p>
+						</div>
+					</div>
+					<div class="trabajo1">
+						<div class="thumb1">
+							<img src="Imagenes/bootstrap.png">
+						</div>
+						<div class="descripcion">
+							<p class="nombre">Bootstrap</p>
+						</div>
+					</div>
+					<div class="trabajo1">
+						<div class="thumb1">
+							<img src="Imagenes/unnamed.png">
+						</div>
+						<div class="descripcion">
+							<p class="nombre">Apache</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
     </div>
     <section id="experiencia">
         <div class="container py-sm-5 py-4">
