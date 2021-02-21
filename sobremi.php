@@ -46,7 +46,7 @@
             </div>
             <section class="trabajos1">
 			<div class="contenedor">
-				<h3 class="titulo">Lenguajes de Programacion</h3>
+				<h2 class="lenguajes text-center">Lenguajes de Programacion</h2>
 						
 				<div class="contenedor-trabajos1">
 					<div class="trabajo1">
@@ -67,10 +67,10 @@
 					</div>
 					<div class="trabajo1">
 						<div class="thumb1">
-							<img src="Imagenes/unnamed (1).png">
+							<img src="Imagenes/J5Yt92WW_400x400.jpg">
 						</div>
 						<div class="descripcion">
-							<p class="nombre">Adobe Xd</p>
+							<p class="nombre">Mysql</p>
 						</div>
 					</div>
 					<div class="trabajo1">
