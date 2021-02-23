@@ -100,7 +100,7 @@ if ($_POST) { /* es postback */
   <section class="contacto" id="contacto">
     <div class="contenedor">
       <h1>¡Trabajemos juntos!</h1>
-      <h2 class="pg">Para más detalles sobre mi<br> trabajo podés ver mi Linkedin,<br> descargar mi CV o mandarme<br> un mensaje.</h2>
+      <h2 class="pg">Para más detalles sobre mi<br> trabajo podés ver mi Linkedin,<br> o mandarme un mensaje.</h2>
       <form class="formulario" action="" method="POST">
         <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" required value="<?php echo isset($_POST["txtNombre"]) ? $_POST["txtNombre"] : ""; ?>">
         <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" required value="<?php echo isset($_POST["txtCorreo"]) ? $_POST["txtCorreo"] : ""; ?>">

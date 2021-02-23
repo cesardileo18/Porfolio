@@ -41,7 +41,7 @@
                     <a href="#" class="btn" target="_blank">Descargar CV <i class="fas fa-download"></i></a>
                 </div>
                 <div class="col-sm-3 col-9 mx-5">
-                    <img src="imagenes/fotocv.jpg" alt="Cesar Acacio Di Leonardo" title="Cesar A. Dileonardo" width="300" height="300" class="rounded-circle img-responsive" />
+                    <img src="Imagenes/fotocv.jpg" alt="Cesar Acacio Di Leonardo" title="Cesar A. Dileonardo" width="300" height="300" class="rounded-circle img-responsive" />
                 </div>
             </div>
             <section class="trabajos1">
@@ -161,7 +161,7 @@
                     <h3>2017 – Presente <br> <br> Buenos Aires</h3>
                 </div>
                 <div class="col-12 col-sm-2">
-                    <a href="https://www.carrefour.com.ar/" target="_blank"><h3><img src="imagenes/carrefour.png" alt="INC S.A. Carrefour" title="INC S.A. Carrefour" class="carrefour"></h3></a>
+                    <a href="https://www.carrefour.com.ar/" target="_blank"><h3><img src="Imagenes/carrefour.png" alt="INC S.A. Carrefour" title="INC S.A. Carrefour" class="carrefour"></h3></a>
                 </div>
                 <div class="col-12 col-sm-8">
                     <h4>Apertura y cierre de local, manejo de caja, atención al cliente, conducción de personal, reposición de mercadería en góndolas,
