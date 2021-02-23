@@ -207,7 +207,13 @@ header .contenedor-texto .texto .profesion{
         .trabajos1 .contenedor-trabajos1 .trabajo1 .thumb1 img {
             vertical-align: top;
             width: 100%;
-            border-radius: 3px; }
+            border-radius: 3px; 
+            opacity: 0.5;
+            border: 2px solid #484848;
+        }
+        .trabajos1 .contenedor-trabajos1 .trabajo1 .thumb1 img:hover{
+            opacity: 1;
+        }
         .trabajos1 .contenedor-trabajos1 .trabajo1 .descripcion {
           text-align: center; }
         .trabajos1 .contenedor-trabajos1 .trabajo1 .descripcion .nombre {
@@ -592,6 +598,11 @@ footer .redes-sociales .contenedor .instagram:hover {
     
 }
 @media screen and (max-width: 800px){
+
+    .trabajos1 .contenedor-trabajos1 .trabajo1 .thumb1 img {
+        opacity: unset;
+    }
+
      .trabajos1 .contenedor-trabajos1 .trabajo1 {
         width: 40%; } 
     .btn{
