@@ -670,9 +670,15 @@ footer .redes-sociales .contenedor .instagram:hover {
         margin-left: 0px !important;
     }
 }
+@media screen and (max-width: 439px){
+    header .contenedor-texto .texto .profesion{
+        margin-left: 15px;
+    }
+}
 @media screen and (max-width: 500px){
     header .contenedor-texto .texto .nombre{
         font-size: 35px;
+        margin-left: 10px;
     }
     header .contenedor-texto .texto .profesion{
         font-size: 18px;
