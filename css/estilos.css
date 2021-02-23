@@ -231,7 +231,7 @@ h2.lenguajes{
     background-color: #1e2b38;
     margin-left: 5px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    font-weight: bold;
  
 }
 .btn:hover{
@@ -367,6 +367,7 @@ h2, .negro{
     border-radius: 3px;
     padding: 15px 20px; 
     text-decoration: none;
+    font-weight: bold;
 }
 
 .trabajo, .boton:hover {
@@ -560,6 +561,10 @@ footer .redes-sociales .contenedor .instagram:hover {
             margin: 20px;
             padding: 7px;
         }
+        #experiencia h2{
+          
+            font-size: 29px;
+        }
     }
 @media screen and (max-width: 615px){
     footer .redes-sociales .contenedor {
@@ -583,13 +588,15 @@ footer .redes-sociales .contenedor .instagram:hover {
     .btn{
         margin-left: 30px;
         margin-top: 20px;
-        margin-bottom: 20px;
     }
     
 }
 @media screen and (max-width: 800px){
      .trabajos1 .contenedor-trabajos1 .trabajo1 {
         width: 40%; } 
+    .btn{
+        margin-bottom: 50px;
+    }
 
     .trabajos .contenedor-trabajos .trabajo {
         width: 110% !important;
@@ -718,10 +725,31 @@ footer .redes-sociales .contenedor .instagram:hover {
         width: 31%;
         margin-left: -26px;
     }
+    #experiencia h3{
+        padding: 20px;
+    }
+    #experiencia h4{
+        padding: 20px;
+    }
 }
 @media screen and (max-width: 580px){
     h1.s{
         margin-left: 20px !important;
     }
+    h2.lenguajes{
+        margin-top: -15px ;
+    }
     
+}
+@media only screen and (min-width: 800px) and (max-width: 993px){
+    .btn{
+        margin-bottom: 50px;
+    }
+
+}
+@media only screen and (min-width: 375px) and (max-width: 500px){
+    #experiencia h2{
+          
+        font-size: 31px;
+    }
 }

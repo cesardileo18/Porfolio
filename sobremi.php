@@ -46,7 +46,7 @@
             </div>
             <section class="trabajos1">
 			<div class="contenedor">
-				<h2 class="lenguajes text-center">Lenguajes de Programacion</h2>
+				<h2 class="lenguajes text-center">Conocimientos de Programacion</h2>
 						
 				<div class="contenedor-trabajos1">
 					<div class="trabajo1">
