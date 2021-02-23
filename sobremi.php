@@ -38,7 +38,7 @@
                 <div>
                     <h1 class="s">Sobre mí</h1>
                     <h2 class="negro">Programador full Stack Jr. Con el objetivo de seguir creciendo profesionalmente en el ambito de la tecnología.</h2>
-                    <a href="cv/Cesar20Support.pdf" class="btn" target="_blank">Descargar CV <i class="fas fa-download"></i></a>
+                    <a href="#" class="btn" target="_blank">Descargar CV <i class="fas fa-download"></i></a>
                 </div>
                 <div class="col-sm-3 col-9 mx-5">
                     <img src="imagenes/fotocv.jpg" alt="Cesar Acacio Di Leonardo" title="Cesar A. Dileonardo" width="300" height="300" class="rounded-circle img-responsive" />
