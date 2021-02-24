@@ -1,5 +1,5 @@
 <div class="menu_bar">
-        <a href="#" class="bt-menu"><span class="icon-menu"></span>DileoWeb</a>
+        <a href="#" class="bt-menu"><span class="icon-menu"></span><img src="Imagenes/1614172092.ico"></a>
     </div>
     <nav>
         <ul>
