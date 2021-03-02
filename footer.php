@@ -12,7 +12,7 @@
                     <a href="https://www.linkedin.com/in/cesar-orlando-acacio-di-leonardo-12b01a1b5/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div class="col-sm-4 col-12 text-sm-right text-center">
-                <p class="patrocinado">Patrocinado por</p><a href="https://depcsuite.com" target="_blank" class="depc">DePC Suite</a>
+                    <p class="patrocinado">Patrocinado por</p><a href="https://depcsuite.com" target="_blank" class="depc">DePC Suite</a>
                 </div>
             </div>
         </div>
