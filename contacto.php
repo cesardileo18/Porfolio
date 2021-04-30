@@ -23,13 +23,13 @@ if ($_POST) { /* es postback */
     $mail = new PHPMailer();
     $mail->IsSMTP();
     $mail->SMTPAuth = true;
-    $mail->Host = "mail.cesardileonardo.com.ar"; // SMTP a utilizar
-    $mail->Username = "info@cesardileonardo.com.ar"; // Correo completo a utilizar
-    $mail->Password = "1719Anadi";
+    $mail->Host = "mail.tudominio.com"; // SMTP a utilizar
+    $mail->Username = "info@Correo coorporativo"; // Correo completo a utilizar
+    $mail->Password = "Tu clave";
     $mail->Port = 25;
     $mail->SMTPAutoTLS = false;
-    $mail->From = "info@cesardileonardo.com.ar"; //Desde la cuenta donde enviamos
-    $mail->FromName = "Cesar Acacio Di Leonardo";
+    $mail->From = "info@Correo coorporativo"; //Desde la cuenta donde enviamos
+    $mail->FromName = "Tu nombre";
     $mail->IsHTML(true);
     $mail->SMTPOptions = array(
       'ssl' => array(
@@ -41,7 +41,7 @@ if ($_POST) { /* es postback */
 
     //Destinatarios
     $mail->addAddress($correo);
-    $mail->addBCC("cesardileo18@gmail.com"); //Copia oculta
+    $mail->addBCC("tu correo personal o alternativo para copia oculta"); //Copia oculta
     $mail->Subject = utf8_decode("Contacto página Web");
     $mail->Body = "Recibimos tu consulta, te responderemos a la brevedad.";
     if (!$mail->Send()) {
@@ -50,7 +50,7 @@ if ($_POST) { /* es postback */
     $mail->ClearAllRecipients(); //Borra los destinatarios
 
     //Envía ahora un correo a nosotros con los datos de la persona
-    $mail->addAddress("info@cesardileonardo.com.ar");
+    $mail->addAddress("info@Correo coorporativo");
     $mail->Subject = utf8_decode("Recibiste un mensaje desde tu página Web");
     $mail->Body = "Te escribio $nombre cuyo correo es $correo, con el asunto $asunto y el siguiente mensaje:<br><br>$mensaje";
 
